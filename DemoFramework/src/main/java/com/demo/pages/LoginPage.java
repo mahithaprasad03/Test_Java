@@ -7,10 +7,10 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.demo.generic.UtilityMethods;
 
-public class LoginPage extends UtilityMethods {
+public class LoginPage extends BasePage {
 	
 	public LoginPage(WebDriver driver) {
-		PageFactory.initElements(driver, this);
+		super(driver);
 		
 	}
 

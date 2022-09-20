@@ -10,6 +10,13 @@
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- com.demo.testng.WelcomeTest -->
+      <class name="com.demo.testng.LoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginUser" invocation-numbers="0"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.demo.testng.LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -3,9 +3,13 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="com.demo.testng.ShoppingTest"/>
       <class name="com.demo.testng.RegisterTest"/>
-      <class name="com.demo.testng.BaseTest"/>
+      <class name="com.demo.testng.BooksTest"/>
       <class name="com.demo.testng.WelcomeTest"/>
+      <class name="com.demo.testng.WishListTest"/>
+      <class name="com.demo.testng.BaseTest"/>
+      <class name="com.demo.testng.LoginTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
