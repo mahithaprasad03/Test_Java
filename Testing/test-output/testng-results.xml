@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="6" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-22T09:09:20 EDT" name="Suite" finished-at="2022-08-22T09:09:25 EDT" duration-ms="4082">
+    <groups>
+      <group name="unit">
+        <method signature="Animal.fox()[pri:0, instance:rahulshettytestwebsite.Animal@27ff5d15]" name="fox" class="rahulshettytestwebsite.Animal"/>
+      </group> <!-- unit -->
+    </groups>
+    <test started-at="2022-08-22T09:09:20 EDT" name="Test" finished-at="2022-08-22T09:09:25 EDT" duration-ms="4082">
+      <class name="rahulshettytestwebsite.Animal">
+        <test-method is-config="true" signature="start()[pri:0, instance:rahulshettytestwebsite.Animal@27ff5d15]" started-at="2022-08-22T09:09:23 EDT" name="start" finished-at="2022-08-22T09:09:23 EDT" duration-ms="944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="fox()[pri:0, instance:rahulshettytestwebsite.Animal@27ff5d15]" started-at="2022-08-22T09:09:23 EDT" name="fox" finished-at="2022-08-22T09:09:23 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fox -->
+        <test-method is-config="true" signature="end()[pri:0, instance:rahulshettytestwebsite.Animal@27ff5d15]" started-at="2022-08-22T09:09:23 EDT" name="end" finished-at="2022-08-22T09:09:24 EDT" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method is-config="true" signature="start()[pri:0, instance:rahulshettytestwebsite.Animal@27ff5d15]" started-at="2022-08-22T09:09:24 EDT" name="start" finished-at="2022-08-22T09:09:24 EDT" duration-ms="899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="lion()[pri:0, instance:rahulshettytestwebsite.Animal@27ff5d15]" started-at="2022-08-22T09:09:24 EDT" name="lion" finished-at="2022-08-22T09:09:24 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lion -->
+        <test-method is-config="true" signature="end()[pri:0, instance:rahulshettytestwebsite.Animal@27ff5d15]" started-at="2022-08-22T09:09:24 EDT" name="end" finished-at="2022-08-22T09:09:25 EDT" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- rahulshettytestwebsite.Animal -->
+      <class name="rahulshettytestwebsite.Fruit">
+        <test-method is-config="true" signature="start()[pri:0, instance:rahulshettytestwebsite.Fruit@55b53d44]" started-at="2022-08-22T09:09:21 EDT" name="start" finished-at="2022-08-22T09:09:22 EDT" duration-ms="1869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="mango()[pri:0, instance:rahulshettytestwebsite.Fruit@55b53d44]" started-at="2022-08-22T09:09:22 EDT" name="mango" finished-at="2022-08-22T09:09:22 EDT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mango -->
+        <test-method is-config="true" signature="end()[pri:0, instance:rahulshettytestwebsite.Fruit@55b53d44]" started-at="2022-08-22T09:09:22 EDT" name="end" finished-at="2022-08-22T09:09:23 EDT" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- rahulshettytestwebsite.Fruit -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
